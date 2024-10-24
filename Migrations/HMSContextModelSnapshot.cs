@@ -17,16 +17,34 @@ namespace Hospital_Management.Migrations
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "8.0.10");
 
+            modelBuilder.Entity("Hospital_Management.Models.Billing", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<decimal>("Amount")
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("PatientId")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("PatientId")
+                        .IsUnique();
+
+                    b.ToTable("Billings");
+                });
+
             modelBuilder.Entity("Hospital_Management.Models.Doctor", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<string>("Departament")
-                        .IsRequired()
-                        .HasMaxLength(255)
-                        .HasColumnType("TEXT");
+                    b.Property<int>("Departament")
+                        .HasColumnType("INTEGER");
 
                     b.Property<int>("EmployeeId")
                         .HasColumnType("INTEGER");
@@ -107,6 +125,7 @@ namespace Hospital_Management.Migrations
 
                     b.Property<string>("Address")
                         .IsRequired()
+                        .HasMaxLength(255)
                         .HasColumnType("TEXT");
 
                     b.Property<int>("Age")
@@ -117,6 +136,7 @@ namespace Hospital_Management.Migrations
 
                     b.Property<string>("Contact")
                         .IsRequired()
+                        .HasMaxLength(50)
                         .HasColumnType("TEXT");
 
                     b.Property<int>("Gender")
@@ -124,11 +144,82 @@ namespace Hospital_Management.Migrations
 
                     b.Property<string>("Name")
                         .IsRequired()
+                        .HasMaxLength(255)
                         .HasColumnType("TEXT");
 
                     b.HasKey("Id");
 
                     b.ToTable("Patients");
+                });
+
+            modelBuilder.Entity("Hospital_Management.Models.Receptionist", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("EmployeeId")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("EmployeeId")
+                        .IsUnique();
+
+                    b.ToTable("Receptionists");
+                });
+
+            modelBuilder.Entity("Hospital_Management.Models.Room", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("Availablity")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("Capacity")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("Type")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Rooms");
+                });
+
+            modelBuilder.Entity("Hospital_Management.Models.TestReport", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Result")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("RoomId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("TestType")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("TestReports");
+                });
+
+            modelBuilder.Entity("Hospital_Management.Models.Billing", b =>
+                {
+                    b.HasOne("Hospital_Management.Models.Patient", "Patient")
+                        .WithOne("Billing")
+                        .HasForeignKey("Hospital_Management.Models.Billing", "PatientId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Patient");
                 });
 
             modelBuilder.Entity("Hospital_Management.Models.Doctor", b =>
@@ -153,11 +244,29 @@ namespace Hospital_Management.Migrations
                     b.Navigation("Employee");
                 });
 
+            modelBuilder.Entity("Hospital_Management.Models.Receptionist", b =>
+                {
+                    b.HasOne("Hospital_Management.Models.Employee", "Employee")
+                        .WithOne("Receptionist")
+                        .HasForeignKey("Hospital_Management.Models.Receptionist", "EmployeeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Employee");
+                });
+
             modelBuilder.Entity("Hospital_Management.Models.Employee", b =>
                 {
                     b.Navigation("Doctor");
 
                     b.Navigation("Nurse");
+
+                    b.Navigation("Receptionist");
+                });
+
+            modelBuilder.Entity("Hospital_Management.Models.Patient", b =>
+                {
+                    b.Navigation("Billing");
                 });
 #pragma warning restore 612, 618
         }

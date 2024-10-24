@@ -10,16 +10,22 @@ public class Patient
     [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     public int Id { get; set; }
     [Required]
+    [StringLength(255)]
     public string Name { get; set; } = default!;
     [Required]
     public int Age { get; set; }
     [Required]
     public Gender Gender { get; set; }
-    [DataType(DataType.Date)]
     [Required]
+    [DataType(DataType.Date)]
     public DateTime Birthday { get; set; }
     [Required]
+    [StringLength(50)]
+    [DataType(DataType.PhoneNumber)]
+    [RegularExpression(@"^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$", ErrorMessage = "Not a valid phone number")]
     public string Contact { get; set; } = default!;
     [Required]
+    [StringLength(255)]
     public string Address { get; set; } = default!;
+    public Billing? Billing { get; set; }
 }

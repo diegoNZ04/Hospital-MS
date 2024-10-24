@@ -342,3 +342,4 @@ C:\Users\Samsung\OneDrive\Área de Trabalho\Projetos\Hospital_Management\obj\Deb
 C:\Users\Samsung\OneDrive\Área de Trabalho\Projetos\Hospital_Management\obj\Debug\net9.0\Hospital_Management.pdb
 C:\Users\Samsung\OneDrive\Área de Trabalho\Projetos\Hospital_Management\obj\Debug\net9.0\Hospital_Management.genruntimeconfig.cache
 C:\Users\Samsung\OneDrive\Área de Trabalho\Projetos\Hospital_Management\obj\Debug\net9.0\ref\Hospital_Management.dll
+C:\Users\Samsung\OneDrive\Área de Trabalho\Projetos\Hospital_Management\obj\Debug\net9.0\Hospital_Management.sourcelink.json
