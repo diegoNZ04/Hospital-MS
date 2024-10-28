@@ -11,14 +11,29 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Hospital_Management.Migrations
 {
     [DbContext(typeof(HMSContext))]
-    [Migration("20241024030653_NewModels")]
-    partial class NewModels
+    [Migration("20241028200516_Initial")]
+    partial class Initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "8.0.10");
+
+            modelBuilder.Entity("DoctorPatient", b =>
+                {
+                    b.Property<int>("DoctorId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("PatientsId")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("DoctorId", "PatientsId");
+
+                    b.HasIndex("PatientsId");
+
+                    b.ToTable("DoctorPatient");
+                });
 
             modelBuilder.Entity("Hospital_Management.Models.Billing", b =>
                 {
@@ -46,7 +61,12 @@ namespace Hospital_Management.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<int>("Departament")
+                    b.Property<string>("Departament")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("TEXT");
+
+                    b.Property<int?>("EmployeeDoctorId")
                         .HasColumnType("INTEGER");
 
                     b.Property<int>("EmployeeId")
@@ -59,7 +79,7 @@ namespace Hospital_Management.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("EmployeeId")
+                    b.HasIndex("EmployeeDoctorId")
                         .IsUnique();
 
                     b.ToTable("Doctors");
@@ -112,9 +132,12 @@ namespace Hospital_Management.Migrations
                     b.Property<int>("EmployeeId")
                         .HasColumnType("INTEGER");
 
+                    b.Property<int?>("EmployeeNurseId")
+                        .HasColumnType("INTEGER");
+
                     b.HasKey("Id");
 
-                    b.HasIndex("EmployeeId")
+                    b.HasIndex("EmployeeNurseId")
                         .IsUnique();
 
                     b.ToTable("Nurses");
@@ -164,9 +187,12 @@ namespace Hospital_Management.Migrations
                     b.Property<int>("EmployeeId")
                         .HasColumnType("INTEGER");
 
+                    b.Property<int?>("EmployeeReceptionistId")
+                        .HasColumnType("INTEGER");
+
                     b.HasKey("Id");
 
-                    b.HasIndex("EmployeeId")
+                    b.HasIndex("EmployeeReceptionistId")
                         .IsUnique();
 
                     b.ToTable("Receptionists");
@@ -178,14 +204,18 @@ namespace Hospital_Management.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<int>("Availablity")
-                        .HasColumnType("INTEGER");
+                    b.Property<string>("Availablity")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("TEXT");
 
                     b.Property<int>("Capacity")
                         .HasColumnType("INTEGER");
 
-                    b.Property<int>("Type")
-                        .HasColumnType("INTEGER");
+                    b.Property<string>("Type")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("TEXT");
 
                     b.HasKey("Id");
 
@@ -200,6 +230,7 @@ namespace Hospital_Management.Migrations
 
                     b.Property<string>("Result")
                         .IsRequired()
+                        .HasMaxLength(255)
                         .HasColumnType("TEXT");
 
                     b.Property<int>("RoomId")
@@ -207,11 +238,27 @@ namespace Hospital_Management.Migrations
 
                     b.Property<string>("TestType")
                         .IsRequired()
+                        .HasMaxLength(255)
                         .HasColumnType("TEXT");
 
                     b.HasKey("Id");
 
                     b.ToTable("TestReports");
+                });
+
+            modelBuilder.Entity("DoctorPatient", b =>
+                {
+                    b.HasOne("Hospital_Management.Models.Doctor", null)
+                        .WithMany()
+                        .HasForeignKey("DoctorId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Hospital_Management.Models.Patient", null)
+                        .WithMany()
+                        .HasForeignKey("PatientsId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("Hospital_Management.Models.Billing", b =>
@@ -227,35 +274,29 @@ namespace Hospital_Management.Migrations
 
             modelBuilder.Entity("Hospital_Management.Models.Doctor", b =>
                 {
-                    b.HasOne("Hospital_Management.Models.Employee", "Employee")
+                    b.HasOne("Hospital_Management.Models.Employee", "EmployeeDoctor")
                         .WithOne("Doctor")
-                        .HasForeignKey("Hospital_Management.Models.Doctor", "EmployeeId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("Hospital_Management.Models.Doctor", "EmployeeDoctorId");
 
-                    b.Navigation("Employee");
+                    b.Navigation("EmployeeDoctor");
                 });
 
             modelBuilder.Entity("Hospital_Management.Models.Nurse", b =>
                 {
-                    b.HasOne("Hospital_Management.Models.Employee", "Employee")
+                    b.HasOne("Hospital_Management.Models.Employee", "EmployeeNurse")
                         .WithOne("Nurse")
-                        .HasForeignKey("Hospital_Management.Models.Nurse", "EmployeeId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("Hospital_Management.Models.Nurse", "EmployeeNurseId");
 
-                    b.Navigation("Employee");
+                    b.Navigation("EmployeeNurse");
                 });
 
             modelBuilder.Entity("Hospital_Management.Models.Receptionist", b =>
                 {
-                    b.HasOne("Hospital_Management.Models.Employee", "Employee")
+                    b.HasOne("Hospital_Management.Models.Employee", "EmployeeReceptionist")
                         .WithOne("Receptionist")
-                        .HasForeignKey("Hospital_Management.Models.Receptionist", "EmployeeId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("Hospital_Management.Models.Receptionist", "EmployeeReceptionistId");
 
-                    b.Navigation("Employee");
+                    b.Navigation("EmployeeReceptionist");
                 });
 
             modelBuilder.Entity("Hospital_Management.Models.Employee", b =>

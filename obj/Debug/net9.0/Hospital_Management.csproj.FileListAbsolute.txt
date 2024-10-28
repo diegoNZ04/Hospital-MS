@@ -263,7 +263,6 @@ C:\Users\Samsung\OneDrive\Área de Trabalho\Projetos\Hospital_Management\obj\Deb
 C:\Users\Samsung\OneDrive\Área de Trabalho\Projetos\Hospital_Management\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\Samsung\OneDrive\Área de Trabalho\Projetos\Hospital_Management\obj\Debug\net9.0\scopedcss\bundle\Hospital_Management.styles.css
 C:\Users\Samsung\OneDrive\Área de Trabalho\Projetos\Hospital_Management\obj\Debug\net9.0\scopedcss\projectbundle\Hospital_Management.bundle.scp.css
-C:\Users\Samsung\OneDrive\Área de Trabalho\Projetos\Hospital_Management\obj\Debug\net9.0\compressed\hmm7pktnk9-b9sayid5wm.gz
 C:\Users\Samsung\OneDrive\Área de Trabalho\Projetos\Hospital_Management\obj\Debug\net9.0\compressed\ikz8985f0o-61n19gt1b8.gz
 C:\Users\Samsung\OneDrive\Área de Trabalho\Projetos\Hospital_Management\obj\Debug\net9.0\compressed\7kjapcqiio-xtxxf3hu2r.gz
 C:\Users\Samsung\OneDrive\Área de Trabalho\Projetos\Hospital_Management\obj\Debug\net9.0\compressed\1c4y2cv8cs-bqjiyaj88i.gz
@@ -325,8 +324,6 @@ C:\Users\Samsung\OneDrive\Área de Trabalho\Projetos\Hospital_Management\obj\Deb
 C:\Users\Samsung\OneDrive\Área de Trabalho\Projetos\Hospital_Management\obj\Debug\net9.0\compressed\2vdiwifxnb-muycvpuwrr.gz
 C:\Users\Samsung\OneDrive\Área de Trabalho\Projetos\Hospital_Management\obj\Debug\net9.0\compressed\y80zevxw2l-87fc7y1x7t.gz
 C:\Users\Samsung\OneDrive\Área de Trabalho\Projetos\Hospital_Management\obj\Debug\net9.0\compressed\8iai1voi6m-mlv21k5csn.gz
-C:\Users\Samsung\OneDrive\Área de Trabalho\Projetos\Hospital_Management\obj\Debug\net9.0\compressed\7j8z6bu1hr-rbcznwa7ho.gz
-C:\Users\Samsung\OneDrive\Área de Trabalho\Projetos\Hospital_Management\obj\Debug\net9.0\compressed\y8bhlvybds-rbcznwa7ho.gz
 C:\Users\Samsung\OneDrive\Área de Trabalho\Projetos\Hospital_Management\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\Samsung\OneDrive\Área de Trabalho\Projetos\Hospital_Management\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\Samsung\OneDrive\Área de Trabalho\Projetos\Hospital_Management\obj\Debug\net9.0\staticwebassets.build.endpoints.json
@@ -343,3 +340,7 @@ C:\Users\Samsung\OneDrive\Área de Trabalho\Projetos\Hospital_Management\obj\Deb
 C:\Users\Samsung\OneDrive\Área de Trabalho\Projetos\Hospital_Management\obj\Debug\net9.0\Hospital_Management.genruntimeconfig.cache
 C:\Users\Samsung\OneDrive\Área de Trabalho\Projetos\Hospital_Management\obj\Debug\net9.0\ref\Hospital_Management.dll
 C:\Users\Samsung\OneDrive\Área de Trabalho\Projetos\Hospital_Management\obj\Debug\net9.0\Hospital_Management.sourcelink.json
+C:\Users\Samsung\OneDrive\Área de Trabalho\Projetos\Hospital_Management\obj\Debug\net9.0\scopedcss\Views\Home\Index.cshtml.rz.scp.css
+C:\Users\Samsung\OneDrive\Área de Trabalho\Projetos\Hospital_Management\obj\Debug\net9.0\compressed\hmm7pktnk9-p7nbx1kxgt.gz
+C:\Users\Samsung\OneDrive\Área de Trabalho\Projetos\Hospital_Management\obj\Debug\net9.0\compressed\7j8z6bu1hr-966sei9w4h.gz
+C:\Users\Samsung\OneDrive\Área de Trabalho\Projetos\Hospital_Management\obj\Debug\net9.0\compressed\y8bhlvybds-966sei9w4h.gz

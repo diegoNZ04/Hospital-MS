@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Hospital_Management.bundle.scp.css",
-      "PackagePath": "staticwebassets\\Hospital_Management.rbcznwa7ho.bundle.scp.css"
+      "PackagePath": "staticwebassets\\Hospital_Management.966sei9w4h.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\wwwroot\\css\\site.css",
@@ -11,6 +11,38 @@
     {
       "Id": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\wwwroot\\imgs\\bill.png",
+      "PackagePath": "staticwebassets\\imgs\\bill.png"
+    },
+    {
+      "Id": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\wwwroot\\imgs\\doctor_3481061.png",
+      "PackagePath": "staticwebassets\\imgs\\doctor_3481061.png"
+    },
+    {
+      "Id": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\wwwroot\\imgs\\employee.png",
+      "PackagePath": "staticwebassets\\imgs\\employee.png"
+    },
+    {
+      "Id": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\wwwroot\\imgs\\hospital-bed.png",
+      "PackagePath": "staticwebassets\\imgs\\hospital-bed.png"
+    },
+    {
+      "Id": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\wwwroot\\imgs\\medical.png",
+      "PackagePath": "staticwebassets\\imgs\\medical.png"
+    },
+    {
+      "Id": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\wwwroot\\imgs\\nurse_4341006.png",
+      "PackagePath": "staticwebassets\\imgs\\nurse_4341006.png"
+    },
+    {
+      "Id": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\wwwroot\\imgs\\patient.png",
+      "PackagePath": "staticwebassets\\imgs\\patient.png"
+    },
+    {
+      "Id": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\wwwroot\\imgs\\receptionist.png",
+      "PackagePath": "staticwebassets\\imgs\\receptionist.png"
     },
     {
       "Id": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\wwwroot\\js\\site.js",

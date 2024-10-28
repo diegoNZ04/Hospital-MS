@@ -1,3 +1,7 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -18,8 +22,7 @@ namespace Hospital_Management.Controllers
         // GET: Doctor
         public async Task<IActionResult> Index()
         {
-            var hMSContext = _context.Doctors.Include(d => d.Employee);
-            return View(await hMSContext.ToListAsync());
+            return View(await _context.Doctors.ToListAsync());
         }
 
         // GET: Doctor/Details/5
@@ -31,7 +34,6 @@ namespace Hospital_Management.Controllers
             }
 
             var doctor = await _context.Doctors
-                .Include(d => d.Employee)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (doctor == null)
             {
@@ -44,7 +46,6 @@ namespace Hospital_Management.Controllers
         // GET: Doctor/Create
         public IActionResult Create()
         {
-            ViewData["EmployeeId"] = new SelectList(_context.Employees, "Id", "Address");
             return View();
         }
 
@@ -61,7 +62,6 @@ namespace Hospital_Management.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["EmployeeId"] = new SelectList(_context.Employees, "Id", "Address", doctor.EmployeeId);
             return View(doctor);
         }
 
@@ -78,7 +78,6 @@ namespace Hospital_Management.Controllers
             {
                 return NotFound();
             }
-            ViewData["EmployeeId"] = new SelectList(_context.Employees, "Id", "Address", doctor.EmployeeId);
             return View(doctor);
         }
 
@@ -114,7 +113,6 @@ namespace Hospital_Management.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["EmployeeId"] = new SelectList(_context.Employees, "Id", "Address", doctor.EmployeeId);
             return View(doctor);
         }
 
@@ -127,7 +125,6 @@ namespace Hospital_Management.Controllers
             }
 
             var doctor = await _context.Doctors
-                .Include(d => d.Employee)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (doctor == null)
             {

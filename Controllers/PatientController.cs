@@ -1,4 +1,9 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Hospital_Management.Data;
 using Hospital_Management.Models;
@@ -49,7 +54,7 @@ namespace Hospital_Management.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,Age,Birthday,Contact,Address")] Patient patient)
+        public async Task<IActionResult> Create([Bind("Id,Name,Age,Gender,Birthday,Contact,Address")] Patient patient)
         {
             if (ModelState.IsValid)
             {
@@ -81,7 +86,7 @@ namespace Hospital_Management.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Age,Birthday,Contact,Address")] Patient patient)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Age,Gender,Birthday,Contact,Address")] Patient patient)
         {
             if (id != patient.Id)
             {

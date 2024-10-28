@@ -1,6 +1,5 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using Hospital_Management.Enuns;
 
 namespace Hospital_Management.Models;
 
@@ -10,10 +9,12 @@ public class Room
     [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     public int Id { get; set; }
     [Required]
-    public RoomType Type { get; set; }
+    [StringLength(255)]
+    public string Type { get; set; } = default!;
     [Required]
     public int Capacity { get; set; }
     [Required]
-    public RoomAvailablity Availablity { get; set; }
+    [StringLength(255)]
+    public string Availablity { get; set; } = default!;
 
 }

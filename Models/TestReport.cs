@@ -12,7 +12,9 @@ public class TestReport
     [ForeignKey("Room")]
     public int RoomId { get; set; }
     [Required]
+    [StringLength(255)]
     public string TestType { get; set; } = default!;
     [Required]
+    [StringLength(255)]
     public string Result { get; set; } = default!;
 }

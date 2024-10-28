@@ -28,4 +28,6 @@ public class Patient
     [StringLength(255)]
     public string Address { get; set; } = default!;
     public Billing? Billing { get; set; }
+    public List<Doctor> Doctor { get; } = [];
+
 }

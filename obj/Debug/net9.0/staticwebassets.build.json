@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "R4eAWaNu+FB+x6NSdkpHEXy3oz/8JFnO/zd3XCshWao=",
+  "Hash": "UtDn7rHQsked6lfOXuPWd67PsyvoBe/eelWoD4GuqJY=",
   "Source": "Hospital_Management",
   "BasePath": "_content/Hospital_Management",
   "Mode": "Default",
@@ -437,12 +437,12 @@
       "OriginalItemSpec": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\obj\\Debug\\net9.0\\compressed\\7j8z6bu1hr-rbcznwa7ho.gz",
+      "Identity": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\obj\\Debug\\net9.0\\compressed\\7j8z6bu1hr-966sei9w4h.gz",
       "SourceId": "Hospital_Management",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/Hospital_Management",
-      "RelativePath": "Hospital_Management#[.{fingerprint=rbcznwa7ho}]?.styles.css.gz",
+      "RelativePath": "Hospital_Management#[.{fingerprint=966sei9w4h}]?.styles.css.gz",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Alternative",
@@ -451,8 +451,8 @@
       "RelatedAsset": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\obj\\Debug\\net9.0\\scopedcss\\bundle\\Hospital_Management.styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "9fglwtc5es",
-      "Integrity": "mwUebc/D+YWRB/jnxYi4HXkZk7JUIVmfutQaJiJNbhw=",
+      "Fingerprint": "4usp1p34q0",
+      "Integrity": "xMz5HYi0F7P0idzE4jpxQmGw3ppSCE7KEFIkalaE4EM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\obj\\Debug\\net9.0\\scopedcss\\bundle\\Hospital_Management.styles.css"
@@ -794,12 +794,12 @@
       "OriginalItemSpec": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\obj\\Debug\\net9.0\\compressed\\hmm7pktnk9-b9sayid5wm.gz",
+      "Identity": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\obj\\Debug\\net9.0\\compressed\\hmm7pktnk9-p7nbx1kxgt.gz",
       "SourceId": "Hospital_Management",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/Hospital_Management",
-      "RelativePath": "css/site#[.{fingerprint=b9sayid5wm}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=p7nbx1kxgt}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -808,8 +808,8 @@
       "RelatedAsset": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "0suozzrugb",
-      "Integrity": "0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y=",
+      "Fingerprint": "zb2a5mlcv9",
+      "Integrity": "sUi0eoULg8LIQHJYx9eFluOCGDtCKx44aKPd+ECiboU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\wwwroot\\css\\site.css"
@@ -1298,12 +1298,12 @@
       "OriginalItemSpec": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map"
     },
     {
-      "Identity": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\obj\\Debug\\net9.0\\compressed\\y8bhlvybds-rbcznwa7ho.gz",
+      "Identity": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\obj\\Debug\\net9.0\\compressed\\y8bhlvybds-966sei9w4h.gz",
       "SourceId": "Hospital_Management",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/Hospital_Management",
-      "RelativePath": "Hospital_Management#[.{fingerprint=rbcznwa7ho}]!.bundle.scp.css.gz",
+      "RelativePath": "Hospital_Management#[.{fingerprint=966sei9w4h}]!.bundle.scp.css.gz",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Alternative",
@@ -1312,8 +1312,8 @@
       "RelatedAsset": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Hospital_Management.bundle.scp.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "9fglwtc5es",
-      "Integrity": "mwUebc/D+YWRB/jnxYi4HXkZk7JUIVmfutQaJiJNbhw=",
+      "Fingerprint": "4usp1p34q0",
+      "Integrity": "xMz5HYi0F7P0idzE4jpxQmGw3ppSCE7KEFIkalaE4EM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Hospital_Management.bundle.scp.css"
@@ -1375,8 +1375,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "rbcznwa7ho",
-      "Integrity": "J4DW6MSCniExA4b5rgGcCjKMZi0p0nRbX7nb56BmP7g=",
+      "Fingerprint": "966sei9w4h",
+      "Integrity": "vwt+MHRL0KbmAtMcQsJxrkrUpc6bOe4G/pVpwa0SzII=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\obj\\Debug\\net9.0\\scopedcss\\bundle\\Hospital_Management.styles.css"
@@ -1396,8 +1396,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "rbcznwa7ho",
-      "Integrity": "J4DW6MSCniExA4b5rgGcCjKMZi0p0nRbX7nb56BmP7g=",
+      "Fingerprint": "966sei9w4h",
+      "Integrity": "vwt+MHRL0KbmAtMcQsJxrkrUpc6bOe4G/pVpwa0SzII=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Hospital_Management.bundle.scp.css"
@@ -1417,8 +1417,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "b9sayid5wm",
-      "Integrity": "j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=",
+      "Fingerprint": "p7nbx1kxgt",
+      "Integrity": "RS/YZuYMbhEdb9wOrwbwuyjJn+/FzpIU/CHwEua/f0E=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1443,6 +1443,174 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\wwwroot\\imgs\\bill.png",
+      "SourceId": "Hospital_Management",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\wwwroot\\",
+      "BasePath": "_content/Hospital_Management",
+      "RelativePath": "imgs/bill#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "11o437gfw5",
+      "Integrity": "W45aS6kMrsmK0QompciHYv3IyJNVlUTdVleD8VRaiU4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imgs\\bill.png"
+    },
+    {
+      "Identity": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\wwwroot\\imgs\\doctor_3481061.png",
+      "SourceId": "Hospital_Management",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\wwwroot\\",
+      "BasePath": "_content/Hospital_Management",
+      "RelativePath": "imgs/doctor_3481061#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hvb4lhfpbx",
+      "Integrity": "46G4VHYqCLGcwteij8hnEC1hPkg8KtjJFFiA+t0X/6c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imgs\\doctor_3481061.png"
+    },
+    {
+      "Identity": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\wwwroot\\imgs\\employee.png",
+      "SourceId": "Hospital_Management",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\wwwroot\\",
+      "BasePath": "_content/Hospital_Management",
+      "RelativePath": "imgs/employee#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mc1yn15jdk",
+      "Integrity": "VmbnRmwwz841xurg3917XELcxpNNjnBxMnlLAvK2/zw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imgs\\employee.png"
+    },
+    {
+      "Identity": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\wwwroot\\imgs\\hospital-bed.png",
+      "SourceId": "Hospital_Management",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\wwwroot\\",
+      "BasePath": "_content/Hospital_Management",
+      "RelativePath": "imgs/hospital-bed#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "s9ot8hdnkx",
+      "Integrity": "IJyav/y1YG1vy0oEF5J/TP8D2umlXL7l55sjivGdVHE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imgs\\hospital-bed.png"
+    },
+    {
+      "Identity": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\wwwroot\\imgs\\medical.png",
+      "SourceId": "Hospital_Management",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\wwwroot\\",
+      "BasePath": "_content/Hospital_Management",
+      "RelativePath": "imgs/medical#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "g2oaj01x4n",
+      "Integrity": "WNtzjjaqy41IE6x2K7fDZwgT1tL2dnoA8ReT/auxZ0k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imgs\\medical.png"
+    },
+    {
+      "Identity": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\wwwroot\\imgs\\nurse_4341006.png",
+      "SourceId": "Hospital_Management",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\wwwroot\\",
+      "BasePath": "_content/Hospital_Management",
+      "RelativePath": "imgs/nurse_4341006#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3h7jbww3pt",
+      "Integrity": "aSiaij1X8nrSAgO0+FA2NgT1HByMb3WvLGwRPBN9LU8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imgs\\nurse_4341006.png"
+    },
+    {
+      "Identity": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\wwwroot\\imgs\\patient.png",
+      "SourceId": "Hospital_Management",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\wwwroot\\",
+      "BasePath": "_content/Hospital_Management",
+      "RelativePath": "imgs/patient#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6o3jti66yu",
+      "Integrity": "qsEhhGNEnyLHRGdfz8gASqWReMDKzBkqhQJZQYvlSWw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imgs\\patient.png"
+    },
+    {
+      "Identity": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\wwwroot\\imgs\\receptionist.png",
+      "SourceId": "Hospital_Management",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\wwwroot\\",
+      "BasePath": "_content/Hospital_Management",
+      "RelativePath": "imgs/receptionist#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "776p3dof2b",
+      "Integrity": "XZ1pyjPH6b/dNNzBk/0LtOnOtwNtkTG5lQonaWOlB0Y=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imgs\\receptionist.png"
     },
     {
       "Identity": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\wwwroot\\js\\site.js",
@@ -2728,13 +2896,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.b9sayid5wm.css",
-      "AssetFile": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\obj\\Debug\\net9.0\\compressed\\hmm7pktnk9-b9sayid5wm.gz",
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\obj\\Debug\\net9.0\\compressed\\hmm7pktnk9-p7nbx1kxgt.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,003134796238"
+          "Quality": "0,003125000000"
         }
       ],
       "ResponseHeaders": [
@@ -2744,19 +2912,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "318"
+          "Value": "319"
         },
         {
           "Name": "ETag",
-          "Value": "\"0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y=\""
+          "Value": "\"sUi0eoULg8LIQHJYx9eFluOCGDtCKx44aKPd+ECiboU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Oct 2024 17:31:58 GMT"
+          "Value": "Fri, 25 Oct 2024 19:07:21 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -2772,26 +2940,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "W/\"RS/YZuYMbhEdb9wOrwbwuyjJn+/FzpIU/CHwEua/f0E=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "b9sayid5wm"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-RS/YZuYMbhEdb9wOrwbwuyjJn+/FzpIU/CHwEua/f0E="
         }
       ]
     },
     {
-      "Route": "css/site.b9sayid5wm.css",
+      "Route": "css/site.css",
       "AssetFile": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2801,7 +2961,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "667"
+          "Value": "675"
         },
         {
           "Name": "Content-Type",
@@ -2809,11 +2969,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "\"RS/YZuYMbhEdb9wOrwbwuyjJn+/FzpIU/CHwEua/f0E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Oct 2024 17:31:58 GMT"
+          "Value": "Fri, 25 Oct 2024 19:07:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RS/YZuYMbhEdb9wOrwbwuyjJn+/FzpIU/CHwEua/f0E="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css.gz",
+      "AssetFile": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\obj\\Debug\\net9.0\\compressed\\hmm7pktnk9-p7nbx1kxgt.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "319"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sUi0eoULg8LIQHJYx9eFluOCGDtCKx44aKPd+ECiboU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Oct 2024 19:07:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sUi0eoULg8LIQHJYx9eFluOCGDtCKx44aKPd+ECiboU="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.p7nbx1kxgt.css",
+      "AssetFile": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\obj\\Debug\\net9.0\\compressed\\hmm7pktnk9-p7nbx1kxgt.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0,003125000000"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "319"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sUi0eoULg8LIQHJYx9eFluOCGDtCKx44aKPd+ECiboU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Oct 2024 19:07:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"RS/YZuYMbhEdb9wOrwbwuyjJn+/FzpIU/CHwEua/f0E=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p7nbx1kxgt"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RS/YZuYMbhEdb9wOrwbwuyjJn+/FzpIU/CHwEua/f0E="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.p7nbx1kxgt.css",
+      "AssetFile": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "675"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RS/YZuYMbhEdb9wOrwbwuyjJn+/FzpIU/CHwEua/f0E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Oct 2024 19:07:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2823,7 +3128,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b9sayid5wm"
+          "Value": "p7nbx1kxgt"
         },
         {
           "Name": "label",
@@ -2831,13 +3136,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-RS/YZuYMbhEdb9wOrwbwuyjJn+/FzpIU/CHwEua/f0E="
         }
       ]
     },
     {
-      "Route": "css/site.b9sayid5wm.css.gz",
-      "AssetFile": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\obj\\Debug\\net9.0\\compressed\\hmm7pktnk9-b9sayid5wm.gz",
+      "Route": "css/site.p7nbx1kxgt.css.gz",
+      "AssetFile": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\obj\\Debug\\net9.0\\compressed\\hmm7pktnk9-p7nbx1kxgt.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2846,7 +3151,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "318"
+          "Value": "319"
         },
         {
           "Name": "Content-Type",
@@ -2854,11 +3159,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y=\""
+          "Value": "\"sUi0eoULg8LIQHJYx9eFluOCGDtCKx44aKPd+ECiboU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Oct 2024 17:31:58 GMT"
+          "Value": "Fri, 25 Oct 2024 19:07:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2876,7 +3181,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b9sayid5wm"
+          "Value": "p7nbx1kxgt"
         },
         {
           "Name": "label",
@@ -2884,144 +3189,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\obj\\Debug\\net9.0\\compressed\\hmm7pktnk9-b9sayid5wm.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0,003134796238"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "318"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 21 Oct 2024 17:31:58 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "667"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 21 Oct 2024 17:31:58 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css.gz",
-      "AssetFile": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\obj\\Debug\\net9.0\\compressed\\hmm7pktnk9-b9sayid5wm.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "318"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 21 Oct 2024 17:31:58 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y="
+          "Value": "sha256-sUi0eoULg8LIQHJYx9eFluOCGDtCKx44aKPd+ECiboU="
         }
       ]
     },
@@ -3324,13 +3492,13 @@
       ]
     },
     {
-      "Route": "Hospital_Management.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\obj\\Debug\\net9.0\\compressed\\y8bhlvybds-rbcznwa7ho.gz",
+      "Route": "Hospital_Management.966sei9w4h.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\obj\\Debug\\net9.0\\compressed\\y8bhlvybds-966sei9w4h.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,001831501832"
+          "Quality": "0,001572327044"
         }
       ],
       "ResponseHeaders": [
@@ -3340,19 +3508,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "545"
+          "Value": "635"
         },
         {
           "Name": "ETag",
-          "Value": "\"mwUebc/D+YWRB/jnxYi4HXkZk7JUIVmfutQaJiJNbhw=\""
+          "Value": "\"xMz5HYi0F7P0idzE4jpxQmGw3ppSCE7KEFIkalaE4EM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Oct 2024 17:58:46 GMT"
+          "Value": "Mon, 28 Oct 2024 17:05:25 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -3368,18 +3536,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"J4DW6MSCniExA4b5rgGcCjKMZi0p0nRbX7nb56BmP7g=\""
+          "Value": "W/\"vwt+MHRL0KbmAtMcQsJxrkrUpc6bOe4G/pVpwa0SzII=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "966sei9w4h"
+        },
+        {
+          "Name": "label",
+          "Value": "Hospital_Management.bundle.scp.css"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-J4DW6MSCniExA4b5rgGcCjKMZi0p0nRbX7nb56BmP7g="
+          "Value": "sha256-vwt+MHRL0KbmAtMcQsJxrkrUpc6bOe4G/pVpwa0SzII="
         }
       ]
     },
     {
-      "Route": "Hospital_Management.bundle.scp.css",
+      "Route": "Hospital_Management.966sei9w4h.bundle.scp.css",
       "AssetFile": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Hospital_Management.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3389,7 +3565,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1137"
+          "Value": "1338"
         },
         {
           "Name": "Content-Type",
@@ -3397,121 +3573,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"J4DW6MSCniExA4b5rgGcCjKMZi0p0nRbX7nb56BmP7g=\""
+          "Value": "\"vwt+MHRL0KbmAtMcQsJxrkrUpc6bOe4G/pVpwa0SzII=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Oct 2024 17:58:46 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-J4DW6MSCniExA4b5rgGcCjKMZi0p0nRbX7nb56BmP7g="
-        }
-      ]
-    },
-    {
-      "Route": "Hospital_Management.bundle.scp.css.gz",
-      "AssetFile": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\obj\\Debug\\net9.0\\compressed\\y8bhlvybds-rbcznwa7ho.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "545"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"mwUebc/D+YWRB/jnxYi4HXkZk7JUIVmfutQaJiJNbhw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 21 Oct 2024 17:58:46 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-mwUebc/D+YWRB/jnxYi4HXkZk7JUIVmfutQaJiJNbhw="
-        }
-      ]
-    },
-    {
-      "Route": "Hospital_Management.rbcznwa7ho.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\obj\\Debug\\net9.0\\compressed\\y8bhlvybds-rbcznwa7ho.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0,001831501832"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "545"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"mwUebc/D+YWRB/jnxYi4HXkZk7JUIVmfutQaJiJNbhw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 21 Oct 2024 17:58:46 GMT"
+          "Value": "Mon, 28 Oct 2024 17:05:25 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"J4DW6MSCniExA4b5rgGcCjKMZi0p0nRbX7nb56BmP7g=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "rbcznwa7ho"
+          "Value": "966sei9w4h"
         },
         {
           "Name": "label",
@@ -3519,13 +3595,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-J4DW6MSCniExA4b5rgGcCjKMZi0p0nRbX7nb56BmP7g="
+          "Value": "sha256-vwt+MHRL0KbmAtMcQsJxrkrUpc6bOe4G/pVpwa0SzII="
         }
       ]
     },
     {
-      "Route": "Hospital_Management.rbcznwa7ho.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Hospital_Management.bundle.scp.css",
+      "Route": "Hospital_Management.966sei9w4h.bundle.scp.css.gz",
+      "AssetFile": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\obj\\Debug\\net9.0\\compressed\\y8bhlvybds-966sei9w4h.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3534,7 +3610,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1137"
+          "Value": "635"
         },
         {
           "Name": "Content-Type",
@@ -3542,56 +3618,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"J4DW6MSCniExA4b5rgGcCjKMZi0p0nRbX7nb56BmP7g=\""
+          "Value": "\"xMz5HYi0F7P0idzE4jpxQmGw3ppSCE7KEFIkalaE4EM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Oct 2024 17:58:46 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "rbcznwa7ho"
-        },
-        {
-          "Name": "label",
-          "Value": "Hospital_Management.bundle.scp.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-J4DW6MSCniExA4b5rgGcCjKMZi0p0nRbX7nb56BmP7g="
-        }
-      ]
-    },
-    {
-      "Route": "Hospital_Management.rbcznwa7ho.bundle.scp.css.gz",
-      "AssetFile": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\obj\\Debug\\net9.0\\compressed\\y8bhlvybds-rbcznwa7ho.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "545"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"mwUebc/D+YWRB/jnxYi4HXkZk7JUIVmfutQaJiJNbhw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 21 Oct 2024 17:58:46 GMT"
+          "Value": "Mon, 28 Oct 2024 17:05:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3609,7 +3640,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "rbcznwa7ho"
+          "Value": "966sei9w4h"
         },
         {
           "Name": "label",
@@ -3617,18 +3648,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-mwUebc/D+YWRB/jnxYi4HXkZk7JUIVmfutQaJiJNbhw="
+          "Value": "sha256-xMz5HYi0F7P0idzE4jpxQmGw3ppSCE7KEFIkalaE4EM="
         }
       ]
     },
     {
-      "Route": "Hospital_Management.rbcznwa7ho.styles.css",
-      "AssetFile": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\obj\\Debug\\net9.0\\compressed\\7j8z6bu1hr-rbcznwa7ho.gz",
+      "Route": "Hospital_Management.966sei9w4h.styles.css",
+      "AssetFile": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\obj\\Debug\\net9.0\\compressed\\7j8z6bu1hr-966sei9w4h.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,001831501832"
+          "Quality": "0,001572327044"
         }
       ],
       "ResponseHeaders": [
@@ -3638,15 +3669,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "545"
+          "Value": "635"
         },
         {
           "Name": "ETag",
-          "Value": "\"mwUebc/D+YWRB/jnxYi4HXkZk7JUIVmfutQaJiJNbhw=\""
+          "Value": "\"xMz5HYi0F7P0idzE4jpxQmGw3ppSCE7KEFIkalaE4EM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Oct 2024 17:58:46 GMT"
+          "Value": "Mon, 28 Oct 2024 17:05:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3666,13 +3697,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"J4DW6MSCniExA4b5rgGcCjKMZi0p0nRbX7nb56BmP7g=\""
+          "Value": "W/\"vwt+MHRL0KbmAtMcQsJxrkrUpc6bOe4G/pVpwa0SzII=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "rbcznwa7ho"
+          "Value": "966sei9w4h"
         },
         {
           "Name": "label",
@@ -3680,12 +3711,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-J4DW6MSCniExA4b5rgGcCjKMZi0p0nRbX7nb56BmP7g="
+          "Value": "sha256-vwt+MHRL0KbmAtMcQsJxrkrUpc6bOe4G/pVpwa0SzII="
         }
       ]
     },
     {
-      "Route": "Hospital_Management.rbcznwa7ho.styles.css",
+      "Route": "Hospital_Management.966sei9w4h.styles.css",
       "AssetFile": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\obj\\Debug\\net9.0\\scopedcss\\bundle\\Hospital_Management.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3695,7 +3726,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1137"
+          "Value": "1338"
         },
         {
           "Name": "Content-Type",
@@ -3703,11 +3734,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"J4DW6MSCniExA4b5rgGcCjKMZi0p0nRbX7nb56BmP7g=\""
+          "Value": "\"vwt+MHRL0KbmAtMcQsJxrkrUpc6bOe4G/pVpwa0SzII=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Oct 2024 17:58:46 GMT"
+          "Value": "Mon, 28 Oct 2024 17:05:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3717,7 +3748,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "rbcznwa7ho"
+          "Value": "966sei9w4h"
         },
         {
           "Name": "label",
@@ -3725,13 +3756,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-J4DW6MSCniExA4b5rgGcCjKMZi0p0nRbX7nb56BmP7g="
+          "Value": "sha256-vwt+MHRL0KbmAtMcQsJxrkrUpc6bOe4G/pVpwa0SzII="
         }
       ]
     },
     {
-      "Route": "Hospital_Management.rbcznwa7ho.styles.css.gz",
-      "AssetFile": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\obj\\Debug\\net9.0\\compressed\\7j8z6bu1hr-rbcznwa7ho.gz",
+      "Route": "Hospital_Management.966sei9w4h.styles.css.gz",
+      "AssetFile": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\obj\\Debug\\net9.0\\compressed\\7j8z6bu1hr-966sei9w4h.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3740,7 +3771,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "545"
+          "Value": "635"
         },
         {
           "Name": "Content-Type",
@@ -3748,11 +3779,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"mwUebc/D+YWRB/jnxYi4HXkZk7JUIVmfutQaJiJNbhw=\""
+          "Value": "\"xMz5HYi0F7P0idzE4jpxQmGw3ppSCE7KEFIkalaE4EM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Oct 2024 17:58:46 GMT"
+          "Value": "Mon, 28 Oct 2024 17:05:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3770,7 +3801,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "rbcznwa7ho"
+          "Value": "966sei9w4h"
         },
         {
           "Name": "label",
@@ -3778,18 +3809,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-mwUebc/D+YWRB/jnxYi4HXkZk7JUIVmfutQaJiJNbhw="
+          "Value": "sha256-xMz5HYi0F7P0idzE4jpxQmGw3ppSCE7KEFIkalaE4EM="
         }
       ]
     },
     {
-      "Route": "Hospital_Management.styles.css",
-      "AssetFile": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\obj\\Debug\\net9.0\\compressed\\7j8z6bu1hr-rbcznwa7ho.gz",
+      "Route": "Hospital_Management.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\obj\\Debug\\net9.0\\compressed\\y8bhlvybds-966sei9w4h.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,001831501832"
+          "Quality": "0,001572327044"
         }
       ],
       "ResponseHeaders": [
@@ -3799,15 +3830,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "545"
+          "Value": "635"
         },
         {
           "Name": "ETag",
-          "Value": "\"mwUebc/D+YWRB/jnxYi4HXkZk7JUIVmfutQaJiJNbhw=\""
+          "Value": "\"xMz5HYi0F7P0idzE4jpxQmGw3ppSCE7KEFIkalaE4EM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Oct 2024 17:58:46 GMT"
+          "Value": "Mon, 28 Oct 2024 17:05:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3827,13 +3858,150 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"J4DW6MSCniExA4b5rgGcCjKMZi0p0nRbX7nb56BmP7g=\""
+          "Value": "W/\"vwt+MHRL0KbmAtMcQsJxrkrUpc6bOe4G/pVpwa0SzII=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-J4DW6MSCniExA4b5rgGcCjKMZi0p0nRbX7nb56BmP7g="
+          "Value": "sha256-vwt+MHRL0KbmAtMcQsJxrkrUpc6bOe4G/pVpwa0SzII="
+        }
+      ]
+    },
+    {
+      "Route": "Hospital_Management.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Hospital_Management.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1338"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vwt+MHRL0KbmAtMcQsJxrkrUpc6bOe4G/pVpwa0SzII=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Oct 2024 17:05:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vwt+MHRL0KbmAtMcQsJxrkrUpc6bOe4G/pVpwa0SzII="
+        }
+      ]
+    },
+    {
+      "Route": "Hospital_Management.bundle.scp.css.gz",
+      "AssetFile": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\obj\\Debug\\net9.0\\compressed\\y8bhlvybds-966sei9w4h.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "635"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xMz5HYi0F7P0idzE4jpxQmGw3ppSCE7KEFIkalaE4EM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Oct 2024 17:05:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xMz5HYi0F7P0idzE4jpxQmGw3ppSCE7KEFIkalaE4EM="
+        }
+      ]
+    },
+    {
+      "Route": "Hospital_Management.styles.css",
+      "AssetFile": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\obj\\Debug\\net9.0\\compressed\\7j8z6bu1hr-966sei9w4h.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0,001572327044"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "635"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xMz5HYi0F7P0idzE4jpxQmGw3ppSCE7KEFIkalaE4EM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Oct 2024 17:05:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"vwt+MHRL0KbmAtMcQsJxrkrUpc6bOe4G/pVpwa0SzII=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vwt+MHRL0KbmAtMcQsJxrkrUpc6bOe4G/pVpwa0SzII="
         }
       ]
     },
@@ -3848,7 +4016,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1137"
+          "Value": "1338"
         },
         {
           "Name": "Content-Type",
@@ -3856,11 +4024,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"J4DW6MSCniExA4b5rgGcCjKMZi0p0nRbX7nb56BmP7g=\""
+          "Value": "\"vwt+MHRL0KbmAtMcQsJxrkrUpc6bOe4G/pVpwa0SzII=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Oct 2024 17:58:46 GMT"
+          "Value": "Mon, 28 Oct 2024 17:05:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3870,13 +4038,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-J4DW6MSCniExA4b5rgGcCjKMZi0p0nRbX7nb56BmP7g="
+          "Value": "sha256-vwt+MHRL0KbmAtMcQsJxrkrUpc6bOe4G/pVpwa0SzII="
         }
       ]
     },
     {
       "Route": "Hospital_Management.styles.css.gz",
-      "AssetFile": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\obj\\Debug\\net9.0\\compressed\\7j8z6bu1hr-rbcznwa7ho.gz",
+      "AssetFile": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\obj\\Debug\\net9.0\\compressed\\7j8z6bu1hr-966sei9w4h.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3885,7 +4053,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "545"
+          "Value": "635"
         },
         {
           "Name": "Content-Type",
@@ -3893,11 +4061,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"mwUebc/D+YWRB/jnxYi4HXkZk7JUIVmfutQaJiJNbhw=\""
+          "Value": "\"xMz5HYi0F7P0idzE4jpxQmGw3ppSCE7KEFIkalaE4EM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Oct 2024 17:58:46 GMT"
+          "Value": "Mon, 28 Oct 2024 17:05:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3915,7 +4083,663 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-mwUebc/D+YWRB/jnxYi4HXkZk7JUIVmfutQaJiJNbhw="
+          "Value": "sha256-xMz5HYi0F7P0idzE4jpxQmGw3ppSCE7KEFIkalaE4EM="
+        }
+      ]
+    },
+    {
+      "Route": "imgs/bill.11o437gfw5.png",
+      "AssetFile": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\wwwroot\\imgs\\bill.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11152"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W45aS6kMrsmK0QompciHYv3IyJNVlUTdVleD8VRaiU4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Oct 2024 17:14:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "11o437gfw5"
+        },
+        {
+          "Name": "label",
+          "Value": "imgs/bill.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-W45aS6kMrsmK0QompciHYv3IyJNVlUTdVleD8VRaiU4="
+        }
+      ]
+    },
+    {
+      "Route": "imgs/bill.png",
+      "AssetFile": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\wwwroot\\imgs\\bill.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11152"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W45aS6kMrsmK0QompciHYv3IyJNVlUTdVleD8VRaiU4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Oct 2024 17:14:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-W45aS6kMrsmK0QompciHYv3IyJNVlUTdVleD8VRaiU4="
+        }
+      ]
+    },
+    {
+      "Route": "imgs/doctor_3481061.hvb4lhfpbx.png",
+      "AssetFile": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\wwwroot\\imgs\\doctor_3481061.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21450"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"46G4VHYqCLGcwteij8hnEC1hPkg8KtjJFFiA+t0X/6c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Oct 2024 15:27:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hvb4lhfpbx"
+        },
+        {
+          "Name": "label",
+          "Value": "imgs/doctor_3481061.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-46G4VHYqCLGcwteij8hnEC1hPkg8KtjJFFiA+t0X/6c="
+        }
+      ]
+    },
+    {
+      "Route": "imgs/doctor_3481061.png",
+      "AssetFile": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\wwwroot\\imgs\\doctor_3481061.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21450"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"46G4VHYqCLGcwteij8hnEC1hPkg8KtjJFFiA+t0X/6c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Oct 2024 15:27:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-46G4VHYqCLGcwteij8hnEC1hPkg8KtjJFFiA+t0X/6c="
+        }
+      ]
+    },
+    {
+      "Route": "imgs/employee.mc1yn15jdk.png",
+      "AssetFile": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\wwwroot\\imgs\\employee.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22343"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VmbnRmwwz841xurg3917XELcxpNNjnBxMnlLAvK2/zw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Oct 2024 17:08:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mc1yn15jdk"
+        },
+        {
+          "Name": "label",
+          "Value": "imgs/employee.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VmbnRmwwz841xurg3917XELcxpNNjnBxMnlLAvK2/zw="
+        }
+      ]
+    },
+    {
+      "Route": "imgs/employee.png",
+      "AssetFile": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\wwwroot\\imgs\\employee.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22343"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VmbnRmwwz841xurg3917XELcxpNNjnBxMnlLAvK2/zw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Oct 2024 17:08:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VmbnRmwwz841xurg3917XELcxpNNjnBxMnlLAvK2/zw="
+        }
+      ]
+    },
+    {
+      "Route": "imgs/hospital-bed.png",
+      "AssetFile": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\wwwroot\\imgs\\hospital-bed.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11742"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IJyav/y1YG1vy0oEF5J/TP8D2umlXL7l55sjivGdVHE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Oct 2024 16:51:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IJyav/y1YG1vy0oEF5J/TP8D2umlXL7l55sjivGdVHE="
+        }
+      ]
+    },
+    {
+      "Route": "imgs/hospital-bed.s9ot8hdnkx.png",
+      "AssetFile": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\wwwroot\\imgs\\hospital-bed.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11742"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IJyav/y1YG1vy0oEF5J/TP8D2umlXL7l55sjivGdVHE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Oct 2024 16:51:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s9ot8hdnkx"
+        },
+        {
+          "Name": "label",
+          "Value": "imgs/hospital-bed.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IJyav/y1YG1vy0oEF5J/TP8D2umlXL7l55sjivGdVHE="
+        }
+      ]
+    },
+    {
+      "Route": "imgs/medical.g2oaj01x4n.png",
+      "AssetFile": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\wwwroot\\imgs\\medical.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19127"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WNtzjjaqy41IE6x2K7fDZwgT1tL2dnoA8ReT/auxZ0k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Oct 2024 16:51:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g2oaj01x4n"
+        },
+        {
+          "Name": "label",
+          "Value": "imgs/medical.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WNtzjjaqy41IE6x2K7fDZwgT1tL2dnoA8ReT/auxZ0k="
+        }
+      ]
+    },
+    {
+      "Route": "imgs/medical.png",
+      "AssetFile": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\wwwroot\\imgs\\medical.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19127"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WNtzjjaqy41IE6x2K7fDZwgT1tL2dnoA8ReT/auxZ0k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Oct 2024 16:51:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WNtzjjaqy41IE6x2K7fDZwgT1tL2dnoA8ReT/auxZ0k="
+        }
+      ]
+    },
+    {
+      "Route": "imgs/nurse_4341006.3h7jbww3pt.png",
+      "AssetFile": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\wwwroot\\imgs\\nurse_4341006.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16449"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aSiaij1X8nrSAgO0+FA2NgT1HByMb3WvLGwRPBN9LU8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Oct 2024 15:31:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3h7jbww3pt"
+        },
+        {
+          "Name": "label",
+          "Value": "imgs/nurse_4341006.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aSiaij1X8nrSAgO0+FA2NgT1HByMb3WvLGwRPBN9LU8="
+        }
+      ]
+    },
+    {
+      "Route": "imgs/nurse_4341006.png",
+      "AssetFile": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\wwwroot\\imgs\\nurse_4341006.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16449"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aSiaij1X8nrSAgO0+FA2NgT1HByMb3WvLGwRPBN9LU8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Oct 2024 15:31:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aSiaij1X8nrSAgO0+FA2NgT1HByMb3WvLGwRPBN9LU8="
+        }
+      ]
+    },
+    {
+      "Route": "imgs/patient.6o3jti66yu.png",
+      "AssetFile": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\wwwroot\\imgs\\patient.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11478"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qsEhhGNEnyLHRGdfz8gASqWReMDKzBkqhQJZQYvlSWw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Oct 2024 16:54:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6o3jti66yu"
+        },
+        {
+          "Name": "label",
+          "Value": "imgs/patient.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qsEhhGNEnyLHRGdfz8gASqWReMDKzBkqhQJZQYvlSWw="
+        }
+      ]
+    },
+    {
+      "Route": "imgs/patient.png",
+      "AssetFile": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\wwwroot\\imgs\\patient.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11478"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qsEhhGNEnyLHRGdfz8gASqWReMDKzBkqhQJZQYvlSWw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Oct 2024 16:54:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qsEhhGNEnyLHRGdfz8gASqWReMDKzBkqhQJZQYvlSWw="
+        }
+      ]
+    },
+    {
+      "Route": "imgs/receptionist.776p3dof2b.png",
+      "AssetFile": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\wwwroot\\imgs\\receptionist.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15139"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XZ1pyjPH6b/dNNzBk/0LtOnOtwNtkTG5lQonaWOlB0Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Oct 2024 17:05:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "776p3dof2b"
+        },
+        {
+          "Name": "label",
+          "Value": "imgs/receptionist.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XZ1pyjPH6b/dNNzBk/0LtOnOtwNtkTG5lQonaWOlB0Y="
+        }
+      ]
+    },
+    {
+      "Route": "imgs/receptionist.png",
+      "AssetFile": "C:\\Users\\Samsung\\OneDrive\\Área de Trabalho\\Projetos\\Hospital_Management\\wwwroot\\imgs\\receptionist.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15139"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XZ1pyjPH6b/dNNzBk/0LtOnOtwNtkTG5lQonaWOlB0Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Oct 2024 17:05:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XZ1pyjPH6b/dNNzBk/0LtOnOtwNtkTG5lQonaWOlB0Y="
         }
       ]
     },

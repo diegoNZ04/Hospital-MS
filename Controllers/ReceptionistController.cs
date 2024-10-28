@@ -22,8 +22,7 @@ namespace Hospital_Management.Controllers
         // GET: Receptionist
         public async Task<IActionResult> Index()
         {
-            var hMSContext = _context.Receptionists.Include(r => r.Employee);
-            return View(await hMSContext.ToListAsync());
+            return View(await _context.Receptionists.ToListAsync());
         }
 
         // GET: Receptionist/Details/5
@@ -35,7 +34,6 @@ namespace Hospital_Management.Controllers
             }
 
             var receptionist = await _context.Receptionists
-                .Include(r => r.Employee)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (receptionist == null)
             {
@@ -48,7 +46,6 @@ namespace Hospital_Management.Controllers
         // GET: Receptionist/Create
         public IActionResult Create()
         {
-            ViewData["EmployeeId"] = new SelectList(_context.Employees, "Id", "Address");
             return View();
         }
 
@@ -65,7 +62,6 @@ namespace Hospital_Management.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["EmployeeId"] = new SelectList(_context.Employees, "Id", "Address", receptionist.EmployeeId);
             return View(receptionist);
         }
 
@@ -82,7 +78,6 @@ namespace Hospital_Management.Controllers
             {
                 return NotFound();
             }
-            ViewData["EmployeeId"] = new SelectList(_context.Employees, "Id", "Address", receptionist.EmployeeId);
             return View(receptionist);
         }
 
@@ -118,7 +113,6 @@ namespace Hospital_Management.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["EmployeeId"] = new SelectList(_context.Employees, "Id", "Address", receptionist.EmployeeId);
             return View(receptionist);
         }
 
@@ -131,7 +125,6 @@ namespace Hospital_Management.Controllers
             }
 
             var receptionist = await _context.Receptionists
-                .Include(r => r.Employee)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (receptionist == null)
             {

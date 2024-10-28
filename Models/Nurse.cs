@@ -8,8 +8,9 @@ namespace Hospital_Management.Models
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
-        [ForeignKey("Employee")]
+        [Required]
+        [ForeignKey("EmployeeNurse")]
         public int EmployeeId { get; set; }
-        public Employee Employee { get; set; } = default!;
+        public Employee EmployeeNurse { get; set; } = null!;
     }
 }
