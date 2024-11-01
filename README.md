@@ -9,5 +9,3 @@ O projeto não vai seguir o diagrama a risca. Adaptações serão implementadas.
 Projeto em desenvolvimento...
 
 ## Diagrama
-
-<img src="imgs\diagram-hospital-management.jpeg">

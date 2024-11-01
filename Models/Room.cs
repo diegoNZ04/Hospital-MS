@@ -16,5 +16,6 @@ public class Room
     [Required]
     [StringLength(255)]
     public string Availablity { get; set; } = default!;
-
+    public List<Nurse> Nurses { get; } = [];
+    public ICollection<Patient> Patients { get; } = [];
 }

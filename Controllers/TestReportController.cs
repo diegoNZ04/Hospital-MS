@@ -22,7 +22,8 @@ namespace Hospital_Management.Controllers
         // GET: TestReport
         public async Task<IActionResult> Index()
         {
-            return View(await _context.TestReports.ToListAsync());
+            var hMSContext = _context.TestReports.Include(t => t.Patient);
+            return View(await hMSContext.ToListAsync());
         }
 
         // GET: TestReport/Details/5
@@ -34,6 +35,7 @@ namespace Hospital_Management.Controllers
             }
 
             var testReport = await _context.TestReports
+                .Include(t => t.Patient)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (testReport == null)
             {
@@ -46,6 +48,7 @@ namespace Hospital_Management.Controllers
         // GET: TestReport/Create
         public IActionResult Create()
         {
+            ViewData["PatientId"] = new SelectList(_context.Patients, "Id", "Address");
             return View();
         }
 
@@ -54,7 +57,7 @@ namespace Hospital_Management.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,RoomId,TestType,Result")] TestReport testReport)
+        public async Task<IActionResult> Create([Bind("Id,PatientId,TestType,Result")] TestReport testReport)
         {
             if (ModelState.IsValid)
             {
@@ -62,6 +65,7 @@ namespace Hospital_Management.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["PatientId"] = new SelectList(_context.Patients, "Id", "Address", testReport.PatientId);
             return View(testReport);
         }
 
@@ -78,6 +82,7 @@ namespace Hospital_Management.Controllers
             {
                 return NotFound();
             }
+            ViewData["PatientId"] = new SelectList(_context.Patients, "Id", "Address", testReport.PatientId);
             return View(testReport);
         }
 
@@ -86,7 +91,7 @@ namespace Hospital_Management.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,RoomId,TestType,Result")] TestReport testReport)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,PatientId,TestType,Result")] TestReport testReport)
         {
             if (id != testReport.Id)
             {
@@ -113,6 +118,7 @@ namespace Hospital_Management.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["PatientId"] = new SelectList(_context.Patients, "Id", "Address", testReport.PatientId);
             return View(testReport);
         }
 
@@ -125,6 +131,7 @@ namespace Hospital_Management.Controllers
             }
 
             var testReport = await _context.TestReports
+                .Include(t => t.Patient)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (testReport == null)
             {

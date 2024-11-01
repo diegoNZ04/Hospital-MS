@@ -3,129 +3,72 @@
 }
 
 <!--Jumbotron-->
-<div
-class="rounded-lg bg-white p-6 text-surface dark:bg-neutral-700 dark:text-gray dark:shadow-black/30"
->
-<h2 class="mb-2 text-3xl font-semibold">Hospital Management System</h2>
-<p>Choose management options below:</p>
-<hr />
+<div class="rounded-lg bg-white p-6 text-surface dark:bg-neutral-700 dark:text-gray dark:shadow-black/30">
+    <h2 class="mb-2 text-3xl font-semibold">Hospital Management System</h2>
+    <p>Choose management options below:</p>
+    <hr />
 </div>
 
-<!-- Menu Cards -->
+<!-- Card Row 1 -->
 <div class="card-row">
-<div class="card" style="width: 15rem">
-<img class="card-img-top" src="imgs\employee.png" alt="Employee Management" />
-<a
-    class="nav-link text-dark"
-    asp-area=""
-    asp-controller="Employee"
-    asp-action="Index"
-    ><button type="button" class="btn btn-outline-secondary">
-    Employees Management
-    </button></a>
-</div>
-
-<div class="card" style="width: 15rem">
-<img class="card-img-top" src="imgs\medical.png" alt="Patient Management" />
-<a
-    class="nav-link text-dark"
-    asp-area=""
-    asp-controller="Patient"
-    asp-action="Index"
-    ><button type="button" class="btn btn-outline-secondary">
-    Patients Management
-    </button></a>
-</div>
-
-<div class="card" style="width: 15rem">
-<img
-    class="card-img-top"
-    src="imgs\doctor_3481061.png"
-    alt="Doctor Management"
-/>
-<a
-    class="nav-link text-dark"
-    asp-area=""
-    asp-controller="Doctor"
-    asp-action="Index"
-    ><button type="button" class="btn btn-outline-secondary">
-    Doctors Management
-    </button></a>
-</div>
+    <!-- Patient Card -->
+    <div class="card" style="width: 15rem">
+        <img class="card-img-top" src="imgs\medical.png" alt="Patient Management" />
+        <a class="nav-link text-dark" asp-area="" asp-controller="Patient" asp-action="Index"><button type="button"
+                class="btn btn-outline-secondary">
+                Patients Management
+            </button></a>
+    </div>
+    <!-- Doctor Card -->
+    <div class="card" style="width: 15rem">
+        <img class="card-img-top" src="imgs\doctor_3481061.png" alt="Doctor Management" />
+        <a class="nav-link text-dark" asp-area="" asp-controller="Doctor" asp-action="Index"><button type="button"
+                class="btn btn-outline-secondary">
+                Doctors Management
+            </button></a>
+    </div>
+    <!-- Nurse Card -->
+    <div class="card" style="width: 15rem">
+        <img class="card-img-top" src="imgs\nurse_4341006.png" alt="Nurse Management" />
+        <a class="nav-link text-dark" asp-area="" asp-controller="Nurse" asp-action="Index"><button type="button"
+                class="btn btn-outline-secondary">
+                Nurses Management
+            </button></a>
+    </div>
+    <!-- Receptionist Card -->
+    <div class="card" style="width: 15rem">
+        <img class="card-img-top" src="imgs\receptionist.png" alt="Receptionist Management" />
+        <a class="nav-link text-dark" asp-area="" asp-controller="Receptionist" asp-action="Index"><button type="button"
+                class="btn btn-outline-secondary">
+                Receptionists Management
+            </button></a>
+    </div>
 </div>
 <br>
+<!-- Card Row 2 -->
 <div class="card-row">
-<div class="card" style="width: 15rem">
-<img
-    class="card-img-top"
-    src="imgs\nurse_4341006.png"
-    alt="Nurse Management"
-/>
-<a
-    class="nav-link text-dark"
-    asp-area=""
-    asp-controller="Doctor"
-    asp-action="Index"
-    ><button type="button" class="btn btn-outline-secondary">
-    Nurses Management
-    </button></a>
-</div>
-
-<div class="card" style="width: 15rem">
-<img
-    class="card-img-top"
-    src="imgs\receptionist.png"
-    alt="Doctor Management"
-/>
-<a
-    class="nav-link text-dark"
-    asp-area=""
-    asp-controller="Doctor"
-    asp-action="Index"
-    ><button type="button" class="btn btn-outline-secondary">
-    Receptionists Management
-    </button></a>
-</div>
-
-<div class="card" style="width: 15rem">
-<img
-    class="card-img-top"
-    src="imgs\hospital-bed.png"
-    alt="Doctor Management"
-/>
-<a
-    class="nav-link text-dark"
-    asp-area=""
-    asp-controller="Doctor"
-    asp-action="Index"
-    ><button type="button" class="btn btn-outline-secondary">
-    Rooms Management
-    </button></a>
-</div>
-</div>
-<br>
-<div class="card-row">
-<div class="card" style="width: 15rem">
-<img class="card-img-top" src="imgs\patient.png" alt="Doctor Management" />
-<a
-    class="nav-link text-dark"
-    asp-area=""
-    asp-controller="Doctor"
-    asp-action="Index"
-    ><button type="button" class="btn btn-outline-secondary">
-    Test Reports Management
-    </button></a>
-</div>
-
-<div class="card" style="width: 15rem">
-<img class="card-img-top" src="imgs\bill.png" alt="Billing Management" />
-<a
-    class="nav-link text-dark"
-    asp-area=""
-    asp-controller="Billing"
-    asp-action="Index"
-    ><button type="button" class="btn btn-outline-secondary">
-    Billings Management
-    </button></a>
-</div>
+    <!-- Room Card -->
+    <div class="card" style="width: 15rem">
+        <img class="card-img-top" src="imgs\hospital-bed.png" alt="Room Management" />
+        <a class="nav-link text-dark" asp-area="" asp-controller="Room" asp-action="Index"><button type="button"
+                class="btn btn-outline-secondary">
+                Rooms Management
+            </button></a>
+    </div>
+    <!-- Test Report Card -->
+    <div class="card" style="width: 15rem">
+        <img class="card-img-top" src="imgs\patient.png" alt="Test Report Management" />
+        <a class="nav-link text-dark" asp-area="" asp-controller="TestReport" asp-action="Index"><button type="button"
+                class="btn btn-outline-secondary">
+                Test Reports Management
+            </button></a>
+    </div>
+    <!-- Billing Card -->
+    <div class="card" style="width: 15rem">
+        <img class="card-img-top" src="imgs\bill.png" alt="Billing Management" />
+        <a class="nav-link text-dark" asp-area="" asp-controller="Billing" asp-action="Index"><button type="button"
+                class="btn btn-outline-secondary">
+                Billings Management
+            </button></a>
+    </div>
 </div>

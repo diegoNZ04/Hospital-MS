@@ -22,7 +22,8 @@ namespace Hospital_Management.Controllers
         // GET: Patient
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Patients.ToListAsync());
+            var hMSContext = _context.Patients.Include(p => p.Room);
+            return View(await hMSContext.ToListAsync());
         }
 
         // GET: Patient/Details/5
@@ -34,6 +35,7 @@ namespace Hospital_Management.Controllers
             }
 
             var patient = await _context.Patients
+                .Include(p => p.Room)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (patient == null)
             {
@@ -46,6 +48,7 @@ namespace Hospital_Management.Controllers
         // GET: Patient/Create
         public IActionResult Create()
         {
+            ViewData["RoomId"] = new SelectList(_context.Rooms, "Id", "Availablity");
             return View();
         }
 
@@ -54,7 +57,7 @@ namespace Hospital_Management.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,Age,Gender,Birthday,Contact,Address")] Patient patient)
+        public async Task<IActionResult> Create([Bind("Id,Name,Age,Gender,Birthday,Contact,Address,RoomId")] Patient patient)
         {
             if (ModelState.IsValid)
             {
@@ -62,6 +65,7 @@ namespace Hospital_Management.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["RoomId"] = new SelectList(_context.Rooms, "Id", "Availablity", patient.RoomId);
             return View(patient);
         }
 
@@ -78,6 +82,7 @@ namespace Hospital_Management.Controllers
             {
                 return NotFound();
             }
+            ViewData["RoomId"] = new SelectList(_context.Rooms, "Id", "Availablity", patient.RoomId);
             return View(patient);
         }
 
@@ -86,7 +91,7 @@ namespace Hospital_Management.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Age,Gender,Birthday,Contact,Address")] Patient patient)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Age,Gender,Birthday,Contact,Address,RoomId")] Patient patient)
         {
             if (id != patient.Id)
             {
@@ -113,6 +118,7 @@ namespace Hospital_Management.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["RoomId"] = new SelectList(_context.Rooms, "Id", "Availablity", patient.RoomId);
             return View(patient);
         }
 
@@ -125,6 +131,7 @@ namespace Hospital_Management.Controllers
             }
 
             var patient = await _context.Patients
+                .Include(p => p.Room)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (patient == null)
             {

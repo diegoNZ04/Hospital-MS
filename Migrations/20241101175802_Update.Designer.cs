@@ -3,6 +3,7 @@ using System;
 using Hospital_Management.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,24 +11,26 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Hospital_Management.Migrations
 {
     [DbContext(typeof(HMSContext))]
-    partial class HMSContextModelSnapshot : ModelSnapshot
+    [Migration("20241101175802_Update")]
+    partial class Update
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "8.0.10");
 
             modelBuilder.Entity("DoctorPatient", b =>
                 {
-                    b.Property<int>("PatientsId")
-                        .HasColumnType("INTEGER");
-
                     b.Property<int>("DoctorsId")
                         .HasColumnType("INTEGER");
 
-                    b.HasKey("PatientsId", "DoctorsId");
+                    b.Property<int>("PatientsId")
+                        .HasColumnType("INTEGER");
 
-                    b.HasIndex("DoctorsId");
+                    b.HasKey("DoctorsId", "PatientsId");
+
+                    b.HasIndex("PatientsId");
 
                     b.ToTable("DoctorPatient");
                 });
@@ -46,7 +49,8 @@ namespace Hospital_Management.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("PatientId");
+                    b.HasIndex("PatientId")
+                        .IsUnique();
 
                     b.ToTable("Billings");
                 });
@@ -128,12 +132,7 @@ namespace Hospital_Management.Migrations
                         .HasMaxLength(255)
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("RoomId")
-                        .HasColumnType("INTEGER");
-
                     b.HasKey("Id");
-
-                    b.HasIndex("RoomId");
 
                     b.ToTable("Patients");
                 });
@@ -168,13 +167,13 @@ namespace Hospital_Management.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<int>("PatientId")
-                        .HasColumnType("INTEGER");
-
                     b.Property<string>("Result")
                         .IsRequired()
                         .HasMaxLength(255)
                         .HasColumnType("TEXT");
+
+                    b.Property<int>("RoomId")
+                        .HasColumnType("INTEGER");
 
                     b.Property<string>("TestType")
                         .IsRequired()
@@ -183,22 +182,20 @@ namespace Hospital_Management.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("PatientId");
-
                     b.ToTable("TestReports");
                 });
 
             modelBuilder.Entity("NurseRoom", b =>
                 {
-                    b.Property<int>("RoomsId")
-                        .HasColumnType("INTEGER");
-
                     b.Property<int>("NursesId")
                         .HasColumnType("INTEGER");
 
-                    b.HasKey("RoomsId", "NursesId");
+                    b.Property<int>("RoomsId")
+                        .HasColumnType("INTEGER");
 
-                    b.HasIndex("NursesId");
+                    b.HasKey("NursesId", "RoomsId");
+
+                    b.HasIndex("RoomsId");
 
                     b.ToTable("NurseRoom");
                 });
@@ -252,30 +249,8 @@ namespace Hospital_Management.Migrations
             modelBuilder.Entity("Hospital_Management.Models.Billing", b =>
                 {
                     b.HasOne("Hospital_Management.Models.Patient", "Patient")
-                        .WithMany("Billings")
-                        .HasForeignKey("PatientId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Patient");
-                });
-
-            modelBuilder.Entity("Hospital_Management.Models.Patient", b =>
-                {
-                    b.HasOne("Hospital_Management.Models.Room", "Room")
-                        .WithMany("Patients")
-                        .HasForeignKey("RoomId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Room");
-                });
-
-            modelBuilder.Entity("Hospital_Management.Models.TestReport", b =>
-                {
-                    b.HasOne("Hospital_Management.Models.Patient", "Patient")
-                        .WithMany("TestReports")
-                        .HasForeignKey("PatientId")
+                        .WithOne("Billing")
+                        .HasForeignKey("Hospital_Management.Models.Billing", "PatientId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -299,14 +274,7 @@ namespace Hospital_Management.Migrations
 
             modelBuilder.Entity("Hospital_Management.Models.Patient", b =>
                 {
-                    b.Navigation("Billings");
-
-                    b.Navigation("TestReports");
-                });
-
-            modelBuilder.Entity("Hospital_Management.Models.Room", b =>
-                {
-                    b.Navigation("Patients");
+                    b.Navigation("Billing");
                 });
 #pragma warning restore 612, 618
         }

@@ -27,7 +27,10 @@ public class Patient
     [Required]
     [StringLength(255)]
     public string Address { get; set; } = default!;
-    public Billing? Billing { get; set; }
-    public List<Doctor> Doctor { get; } = [];
+    public List<Doctor> Doctors { get; } = [];
+    public int RoomId { get; set; }
+    public Room Room { get; set; } = null!;
+    public ICollection<TestReport> TestReports { get; } = [];
+    public ICollection<Billing> Billings { get; } = [];
 
 }

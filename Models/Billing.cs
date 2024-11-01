@@ -8,8 +8,6 @@ public class Billing
     [Key]
     [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     public int Id { get; set; }
-    [Required]
-    [ForeignKey("Patient")]
     public int PatientId { get; set; }
     public Patient Patient { get; set; } = default!;
     [Required]

@@ -4,8 +4,9 @@ using Hospital_Management.Enuns;
 
 namespace Hospital_Management.Models;
 
-public class Employee
+public abstract class Employee
 {
+
     [Key]
     [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     public int Id { get; set; }
@@ -29,7 +30,4 @@ public class Employee
     [Required]
     [StringLength(255)]
     public string Address { get; set; } = default!;
-    public Doctor? Doctor { get; set; }
-    public Nurse? Nurse { get; set; }
-    public Receptionist? Receptionist { get; set; }
 }
