@@ -9,3 +9,4 @@ O projeto não vai seguir o diagrama a risca. Adaptações serão implementadas.
 Projeto em desenvolvimento...
 
 ## Diagrama
+![HRMS_ERD](https://github.com/user-attachments/assets/9dcdd5e6-5558-4024-bb73-8eeb43a1e022)
